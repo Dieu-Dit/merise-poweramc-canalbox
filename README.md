@@ -33,16 +33,17 @@ La modélisation respecte le cycle d'abstraction Merise :
 
 ---
 
-## 📂 Structure du Dépôt
+## 📂 Structure du Dépôt:
 
-```text
 .
-├── README.md              <-- Présentation du projet
-├── sql/
-│   └── script_canalbox.sql <-- Script de création des tables
-├── poweramc/
-│   └── canalbox_model.pdm  <-- Fichier source PowerAMC
-└── docs/
-    ├── mcd.png             <-- Capture du MCD
-    ├── mld.png             <-- Capture du MLD
-    └── mpd.png             <-- Capture du MPD
+├── README.md               
+├── sql/                    
+│   └── BD_Canalbox.sql     (script SQL)
+├── poweramc/               
+│   ├── canalbox.cdm
+│   ├── canalbox.mld
+│   └── canalbox.pdm
+└── docs/                   
+    ├── mcd.png
+    ├── mld.png
+    └── mpd.png
