@@ -35,14 +35,16 @@ La modélisation respecte le cycle d'abstraction Merise :
 
 ## 📂 Structure du Dépôt:
 
-.
+
 *README.md               
 *sql/                    
-    BD_Canalbox.sql     (script SQL)
+    BD_Canalbox.sql  (script SQL)
+    
 *poweramc/               
     canalbox.cdm
     canalbox.mld
     canalbox.pdm
+ 
   *docs/                   
     mcd.png
     mld.png
